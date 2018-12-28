@@ -16,11 +16,13 @@
 			<a class="main-menu__item" href="#">Roadster</a>
 			<a class="main-menu__item" href="#">Energy</a>
 		</nav>
-		<a class="header__shop-link" href="#">Магазин</a>
-		<button class="header__login-btn">Войти</button>
-		<button class="main-menu header__side-menu">
-			<img src="img/icons/menu.svg" alt="Иконка меню">
-		</button>
+		<div class="sub-menu header__sub-menu">
+			<a class="sub-menu__shop-link" href="#">Магазин</a>
+			<button class="sub-menu__login-btn">Войти</button>
+			<button class="main-menu sub-menu__burger-menu">
+				<img src="img/icons/menu.svg" alt="Иконка меню">
+			</button>
+		</div>
 	</header>
 
 	<!-- Презентация -->
@@ -28,7 +30,7 @@
 	<main class="content">
 		<section class="preview">
 			<h1 class="preview__title">Model S</h1>
-			<p class="preview__subtitle">Добро пожаловать в будущее!</p>
+			<h2 class="preview__subtitle">Добро пожаловать в будущее!</h2>
 			<div class="wordmark">
 				<img src="#" alt="Фоновый логотип Tesla">
 			</div>
@@ -41,15 +43,15 @@
 					<div class="box-options">
 						<img class="box-options__img" src="#" alt="Спидометр">
 						<div class="box-options__text">
-							<p class="box-options__value"><span>2,7</span> сек</p>
-							<p class="box-options__description">0-100 км/час</p>
+							<p class="box-options__text_value"><span>2,7</span> сек</p>
+							<p class="box-options__text_description">0-100 км/час</p>
 						</div>
 					</div>
 					<div class="box-options">
 						<img class="box-options__img"  src="#" alt="Трасса">
 						<div class="box-options__text">
-							<p class="box-options__value"><span>632</span>км</p>
-							<p class="box-options__description">запас хода</p>
+							<p class="box-options__text_value"><span>632</span>км</p>
+							<p class="box-options__text_description">запас хода</p>
 						</div>
 					</div>
 				</div>
@@ -83,22 +85,22 @@
 					<div class="box-options">
 						<img class="box-options__img"  src="#" alt="Бортовой компьютер">
 						<div class="box-options__text">
-							<p class="box-options__value"><span>17</span> дюймов</p>
-							<p class="box-options__description">Большой дисплей</p>
+							<p class="box-options__text_value"><span>17</span> дюймов</p>
+							<p class="box-options__text_description">Большой дисплей</p>
 						</div>
 					</div>
 					<div class="box-options">
 						<img class="box-options__img"  src="#" alt="Wi-fi">
 						<div class="box-options__text">
-							<p class="box-options__value">Беспроводное обновление ПО</p>
-							<p class="box-options__description">Повышенная функциональность</p>
+							<p class="box-options__text_value">Беспроводное обновление ПО</p>
+							<p class="box-options__text_description">Повышенная функциональность</p>
 						</div>
 					</div>
 					<div class="box-options">
 						<img class="box-options__img"  src="#" alt="Багаж">
 						<div class="box-options__text">
-							<p class="box-options__value"><span>894</span> литра</p>
-							<p class="box-options__description">Объем грузового пространства</p>
+							<p class="box-options__text_value"><span>894</span> литра</p>
+							<p class="box-options__text_description">Объем грузового пространства</p>
 						</div>
 					</div>
 					<div class="block-actions block-sidebar__block-actions">
@@ -170,8 +172,8 @@
 				<div class="box-rating">
 					<img class="box-rating__img"  src="#" alt="Символ - галочка">
 					<div class="box-rating__text">
-						<p class="box-rating__value">5 звезд</p>
-						<p class="box-rating__criterion">безопасности</p>
+						<p class="box-rating__text_value">5 звезд</p>
+						<p class="box-rating__text_criterion">безопасности</p>
 					</div>
 				</div>
 				<div class="block-actions block-sidebar__block-actions">
